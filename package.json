@@ -1,5 +1,5 @@
 {
-  "name": "react-native-currency-input",
+  "name": "@dannyhw/react-native-currency-input",
   "version": "1.1.0",
   "description": "A simple currency input component for both iOS and Android",
   "main": "lib/commonjs/index",
@@ -39,13 +39,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/CaioQuirinoMedeiros/react-native-currency-input",
+  "repository": "https://github.com/dannyhw/react-native-currency-input",
   "author": "Caio Medeiros <caio.quirino.medeiros@gmail.com> (https://github.com/CaioQuirinoMedeiros)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CaioQuirinoMedeiros/react-native-currency-input/issues"
+    "url": "https://github.com/dannyhw/react-native-currency-input/issues"
   },
-  "homepage": "https://github.com/CaioQuirinoMedeiros/react-native-currency-input#readme",
+  "homepage": "https://github.com/dannyhw/react-native-currency-input#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.16.2",

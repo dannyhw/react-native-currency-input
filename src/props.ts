@@ -1,5 +1,11 @@
 import type React from 'react';
-import type { TextInputProps, StyleProp, ViewStyle, TextProps } from 'react-native';
+import type {
+  TextInputProps,
+  StyleProp,
+  ViewStyle,
+  TextProps,
+  TextStyle,
+} from 'react-native';
 
 export interface FormatNumberOptions {
   /**
@@ -122,6 +128,13 @@ export interface FakeCurrencyInputProps extends CurrencyInputProps {
    * Color of the caret. Defaults to #6495ed
    */
   caretColor?: string;
+
+  /**
+   * Style for the caret. Defaults to { backgroundColor: '#6495ed' }
+   * Use this to set a fontWeight etc.
+   * If you want to set a custom color, use `caretColor` instead.
+   */
+  textWithCursorStyles?: StyleProp<TextStyle>;
 }
 
 export interface TextWithCursorProps extends TextProps {

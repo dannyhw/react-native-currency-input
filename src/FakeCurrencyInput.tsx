@@ -21,6 +21,7 @@ const FakeCurrencyInput = React.forwardRef<TextInput, FakeCurrencyInputProps>(
       selectionColor,
       onFocus,
       onBlur,
+      textWithCursorStyles,
       ...rest
     } = props;
 
@@ -32,7 +33,9 @@ const FakeCurrencyInput = React.forwardRef<TextInput, FakeCurrencyInputProps>(
         <TextWithCursor
           style={style}
           cursorVisible={focused && !caretHidden}
-          cursorProps={{ style: { color: caretColor || selectionColor } }}
+          cursorProps={{
+            style: [{ color: caretColor || selectionColor }, textWithCursorStyles],
+          }}
         >
           {formattedValue}
         </TextWithCursor>
